@@ -55,7 +55,7 @@ fun HomeRoute(
 @Composable
 fun DetailRoute(voiture: Voiture, navController: NavHostController) {
     DetailVoitureScreen(voiture = voiture) {
-        navController.popBackStack(HomeScreen.Start.name, false)
+        navController.navigateUp()
     }
 }
 
