@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Kinomap</string>
     <string name="retry">Retry</string>
-    <string name="error_retrieving_car">Error to recieved Car information.</string>
+    <string name="error_retrieving_car">Error to received Car information.</string>
     <string name="home_page_subtitle">La liste de voitures</string>
+    <string name="data_not_received">Échec de la récupération des données</string>
 </resources>

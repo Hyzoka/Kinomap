@@ -1,5 +1,6 @@
 package com.hyzoka.kinomap.datasources
 
+import com.hyzoka.kinomap.R
 import com.hyzoka.kinomap.model.Voiture
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.Flow
@@ -21,7 +22,7 @@ class VoitureDataSource(private val voitureService: VoitureService) {
                     throw Exception("Réponse vide")
                 }
             } else {
-                throw Exception("Échec de la récupération des données")
+                throw Exception("${R.string.data_not_received}")
             }
         } catch (e: Exception) {
             throw e
